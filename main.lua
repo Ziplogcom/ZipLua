@@ -1,5 +1,6 @@
 local driver = peripheral.wrap("back")
 local canvas = driver.canvas()
+canvas.clear()
 local StatusText = canvas.addText({x = 5, y = 5}, "")
 
 StatusText.setText("Loading ARK-OS version 1...")
